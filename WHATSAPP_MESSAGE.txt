@@ -1,0 +1,28 @@
+היי, שולח את פרויקט ה־API של הצעצועים (Node.js + MongoDB) כקובץ zip.
+
+חשוב: את הקישור למרצה מגישים מה־GitHub שלכם, לא מקישור לדוגמה.
+
+מה לעשות:
+1. לחלץ את ה־zip
+2. לקרוא את GITHUB_GUIDE.md — יש שם העלאה ב־GitHub Desktop ובשורת פקודה
+3. ליצור ריפו Public על החשבון שלכם ולהעלות את התיקייה
+4. לא להעלות .env ולא node_modules (ה־gitignore כבר חוסם אותם)
+5. להגיש את הכתובת: https://github.com/השם-שלכם/toys-nodejs-mongo-api
+
+לפני הרצה מקומית:
+- להעתיק .env.example ל־.env
+- לשים שם MONGO_URL של Atlas (מסד בשם TOYS) ו־TOKEN_SECRET
+- npm install
+- npm run seed
+- npm start
+השרת על http://localhost:3001
+
+משתמשי דמו אחרי seed:
+admin@toys.com / 123456
+user@toys.com / 123456
+
+ריפו לדוגמה בלבד (לא להגיש אותו):
+https://github.com/BinyaminR/toys-nodejs-mongo-api
+
+דוקומנטציה בעברית: DOCS_HE.md
+צ'קליסט מול המשימה: STUDENT_REVIEW.md
